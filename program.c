@@ -45,12 +45,12 @@ node *main_logs(node *start)
     system("cls");
     printf("\n\n\n");
     printf("        \t\t\t1. FOR VOTE ENTRY     \n");
-    Sleep(300);
+    Sleep(30);
     printf("        \t\t\t2. FOR ADMIN PANEL    \n");
-    Sleep(300);
+    Sleep(30);
     printf("        \t\t\t3. FOR WINNER         \n");
     printf("    \t IF YOUR CREDENTIALS MATCHES WITH THOSE IN THE VOTER LIST THEN ONLY YOU CAN GIVE YOUR VOTE OTHERWISE YOU CAN NOT    \n\n\n");
-    Sleep(500);
+    Sleep(50);
     printf("    \t ********So Plz Enter********\n\n\n");
     int T;
     scanf("%d",&T);
@@ -82,11 +82,11 @@ int *z;
      system("cls");
      printf("\n\n\n\n");
      printf("\t IF AADHAR ID, YOUR NAME AND YOUR DATE OF BIRTH MATCHES THEN YOU CAN GIVE YOUR VOTE OTHERWISE NOT\n\n");
-     Sleep(300);
+     Sleep(30);
      printf("\t\t\t ID YOU DO WRONG %d TIMES, THE PORTAL WILL BE CLOSED AUTOMATICALLY\n\n\n",R);
-     Sleep(300);
+     Sleep(30);
      printf("\t\tPlease \n");
-     Sleep(300);
+     Sleep(30);
      printf("\t\t\tEnter your AADHAR ID number  ");
      gets(aadhar);
      gets(aadhar);
@@ -134,9 +134,9 @@ int *z;
          }
          printf("\n\n\n\n");
          printf("\tYour AADHAR ID or NAME or DATE OF BIRTH is wrong\n\n");
-         Sleep(300);
+         Sleep(30);
          printf("\t\t\tPlz Re-Enter\n\n");
-         Sleep(300);
+         Sleep(30);
          system("pause");
         start= main_logs(start);
             }
@@ -149,17 +149,17 @@ void voting()
      system("cls");
     printf("\n\n\n\n");
     printf("\t\t     * * * * * LIST OF CANDIDATES * * * * * \n\n\n");
-    Sleep(300);
+    Sleep(30);
     printf("\t\t\t NAME     & THEIR RESPECTIVE      SYMBOL\n\n");
-    Sleep(300);
+    Sleep(30);
     printf("\t\t\t 1.Mamata Banerjee                1.Fish\n");
-    Sleep(300);
+    Sleep(30);
     printf("\t\t\t 2.Deepa Dasmunsi                 2.Boat\n");
-    Sleep(300);
+    Sleep(30);
     printf("\t\t\t 3.Protima Rajak                  3.Motorcycle\n");
-    Sleep(300);
+    Sleep(30);
     printf("\t\t\t 4.Joydeb Halder                  4.Broomstick\n");
-    Sleep(300);
+    Sleep(30);
     printf("\t\t\t 5.Kartik Chandra Ghosh           5.Wheel\n\n\n");
        int B,j;
        printf("\t\t\t Plzz, \n");
@@ -211,9 +211,9 @@ void voting()
  {
      int B;
      printf("\n\n\n\n");
-     printf("\t\t\t\t\tEnter Your Password To Unlock The Admin Panel\n\n");
+     printf("\t\t Enter Your Password To Unlock The Admin Panel : ");
      scanf("%d",&B);
-     if(B==3692)
+     if(B==1234)
      {
          show();
      }
@@ -228,17 +228,17 @@ void voting()
       system("cls");
       printf("\n\n\n\n");
       printf("\t\t\tPresent Vote Count :\n\n");
-      Sleep(500);
+      Sleep(50);
       printf("\t\t\t  Mamata Banerjee is on     %d Votes\n",vote1);
-      Sleep(500);
+      Sleep(50);
       printf("\t\t\t  Deepa Dasmunsi is on      %d Votes\n",vote2);
-      Sleep(500);
+      Sleep(50);
       printf("\t\t\t  Protima Rajak is on       %d Votes\n",vote3);
-      Sleep(500);
+      Sleep(50);
       printf("\t\t\t  Joydeb Halder  is on      %d Votes\n",vote4);
-      Sleep(500);
+      Sleep(50);
       printf("\t\t\t  Kartik Chandra Ghosh  is on     %d Votes\n\n\n\n",vote5);
-      Sleep(500);
+      Sleep(50);
       printf("\t\t\t\t\tEnter Any Key For Main Logs\n\n\t\t\t\t\t\t\tOR\n\n\t\t\t\t\tENTER THE SPECIAL PASSWORD TO CLOSING VOTING PORTAL\n ");
     scanf("%d",&G);
     if(G==1234)
@@ -269,11 +269,11 @@ void voting()
        system("cls");
        printf("\n\n\n\n");
        printf("\t\t\t (:-SORRY YOU ENTERED WRONG CREDENTIALS FOR THREE(3) TIMES IN A ROW -:) \n\n\n");
-       Sleep(500);
+       Sleep(50);
        printf("\t\t\t Plz try again After A few Moment\n\n\n");
-       Sleep(500);
+       Sleep(50);
        printf("\t\t\t * * *Thank You* * *  \n\n\n");
-       Sleep(500);
+       Sleep(50);
        printf("press any key");
        getch();
    }
@@ -283,11 +283,11 @@ void voting()
 		system("cls");
         printf("\n\n\n\n");
         printf("\t\t\t        ***YOU HAVE GIVEN YOUR VOTE SUCCESSFULLY***       \n\n\n");
-        Sleep(300);
+        Sleep(30);
         printf("\t\t\t        ***YOU CANNOT GIVE YOUR VOTE MORE THAN ONCE***     \n\n\n");
-        Sleep(300);
+        Sleep(30);
         printf("\t\t\t If You want to see present winner Enter One(1) or Enter Any Other Key for Main  Logs\n\n");
-        Sleep(300);
+        Sleep(30);
         scanf("%d",&A);
         if(A==1)
         {
@@ -302,11 +302,11 @@ void voting()
    {
        system("cls");
        printf("\n\n\n\n\n");
-       Sleep(500);
+       Sleep(50);
        printf("\t\t\t        ***YOU ARE NOW EXITING THE PORTAL***       \n\n\n");
-       Sleep(1000);
+       Sleep(100);
        printf("\t\t\t * * *Thank You For Using This ONLINE PLATFORM For VOTING* * *  \n\n\n");
-       Sleep(1000);
+       Sleep(100);
        exit(0);
    }
 node *search(char x[],char y[],char z[],node *start,int *Y)
