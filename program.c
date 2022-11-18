@@ -31,9 +31,9 @@ int main()
     printf("\t            ****** WELCOME TO THE ONLINE VOTING PORTAL ******        \n\n");
     printf("\t           ***************************************************        \n\n\n\n\n");
     printf("        \t\t *****Please Enter One(1) for logging vote main Logs*****    \n\n\n");
-    int BB;
-    scanf("%d",&BB);
-    if(BB==1)
+    char BB;
+    scanf("%c",&BB);
+    if(BB!=0)
     {
       start=  main_logs(start);
     }
