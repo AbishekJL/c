@@ -28,12 +28,12 @@ int main()
 	while(1){
     system("cls");
     printf("\n\n\n");
-    printf("\t            ****** WELCOME TO THE ONLINE VOTING PORTAL ******        \n\n");
-    printf("\t           ***************************************************        \n\n\n\n\n");
-    printf("        \t\t *****Please Enter One(1) for logging vote main Logs*****    \n\n\n");
+    printf("\t            ****** VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY ******        \n");
+    printf("\t                *****   WELCOME TO OUR DEPARTMENT ELECTION  ******        \n\n");
+    printf("        \t                ************************************    \n\n\n");
     char BB;
     scanf("%c",&BB);
-    if(BB!=0)
+    if(BB!=".")
     {
       start=  main_logs(start);
     }
